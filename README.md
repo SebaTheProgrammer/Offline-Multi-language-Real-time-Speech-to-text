@@ -12,10 +12,10 @@ This was designed to run next to their game, so it should be pretty optimized. B
 
 # Deeper logic:
 
-String comparison:
+String Comparison:
 
-After that a word get's recognized by the python script, we need to check of course if that word/sentence calls a corresponding function.
-For this problem, I used the Levenshtein distance. (https://en.wikipedia.org/wiki/Levenshtein_distance)
+After a word is recognized by the Python script, we need to check if that word or sentence corresponds to a specific function. 
+To address this problem, I used the Levenshtein distance. (https://en.wikipedia.org/wiki/Levenshtein_distance)
 
 ![Levenshtein_distance_animation](https://github.com/user-attachments/assets/2f971679-5836-47ce-8cdc-cc4b5836ba52)
 
