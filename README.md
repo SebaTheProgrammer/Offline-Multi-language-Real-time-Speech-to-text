@@ -18,5 +18,6 @@ After a word is recognized by the Python script, we need to check if that word o
 To address this problem, I used the Levenshtein distance. (https://en.wikipedia.org/wiki/Levenshtein_distance)
 
 ![Levenshtein_distance_animation](https://github.com/user-attachments/assets/2f971679-5836-47ce-8cdc-cc4b5836ba52)
+
 Edit distance matrix for two words using cost of substitution as 1 and cost of deletion or insertion as 0.5.
 
