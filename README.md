@@ -44,12 +44,14 @@ Edit distance matrix for two words using cost of substitution as 1 and cost of d
 
         return d[s.Length, t.Length];
     }
+    
     private static double SimilarityPercentage(string s, string t)
     {
         int distance = LevenshteinDistance(s, t);
         int maxLength = Math.Max(s.Length, t.Length);
         return (1.0 - (double)distance / maxLength) * 100;
     }
+    
     private static bool IsAtLeastXPercentSimilar(string s, string t, float procentequal = 50.0f)
     {
         if (s.Length > 0)
