@@ -13,7 +13,7 @@ This was designed to run next to their program, so that's why it is heavily thre
 
 # Deeper logic:
 
-Chunck loading:
+- Chunck loading:
 
 First of all, how does voice recognition works? In simple terms, you record your audio and let an advanced ai/program decipher the words.
 The thing is, deciphering is a heavy task. That is the reason that I splitsed it in 10 chucks that continuesly get's recorded and deciphered.
@@ -22,7 +22,7 @@ It didn't matter for my end user in which order the words get deciphered. (Examp
 
 That way stands this program never still.
 
-String Comparison:
+- String Comparison:
 
 After a word is recognized by the Python script, we need to check if that word or sentence corresponds to a specific function. 
 To address this problem, I used the Levenshtein distance. (https://en.wikipedia.org/wiki/Levenshtein_distance)
