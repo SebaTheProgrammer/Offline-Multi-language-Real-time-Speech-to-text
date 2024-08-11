@@ -20,6 +20,8 @@ The thing is, deciphering is a heavy task. That is the reason that I splitsed it
 
 It didn't matter for my end user in which order the words get deciphered. (Example: if it takes a lot of time for the first one, but the second chunck is shorter, the second chunck's string get passed first.)
 
+That way stands this program never still.
+
 String Comparison:
 
 After a word is recognized by the Python script, we need to check if that word or sentence corresponds to a specific function. 
