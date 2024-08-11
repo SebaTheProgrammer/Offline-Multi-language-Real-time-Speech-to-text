@@ -9,9 +9,16 @@ You can easily change the language and model (of faster whisper) to finetune it 
 
 I really recommend using CUDA and not just on the cpu. That way it will be a lot, but a lot faster.
 
-This was designed to run next to their game, so it should be pretty optimized. But if you find any improvements, please let me know :).
+This was designed to run next to their program, so that's why it is heavily threaded. But if you find any improvements, please let me know :).
 
 # Deeper logic:
+
+Chunck loading:
+
+First of all, how does voice recognition works? In simple terms, you record your audio and let an advanced ai/program decipher the words.
+The thing is, deciphering is a heavy task. That is the reason that I splitsed it in 10 chucks that continuesly get's recorded and deciphered.
+
+It didn't matter for my end user in wich order the words get deciphered. (Example: if it takes a lot of time for the first one, but the second chunck is shorter, the second chunck's string get passed first.)
 
 String Comparison:
 
