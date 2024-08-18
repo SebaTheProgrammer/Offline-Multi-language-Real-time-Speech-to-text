@@ -1,5 +1,5 @@
 # Offline-Multi-language-Real-time-Speech-to-text
-Made in my short summer internship at the Belgium Defence, XR-Labs.
+Made in my short summer internship at the Belgian Defence, XR-Labs.
 
 # Info:
 There are two variations, as you can see, one with a threaded pipeline to communicate with a c# program/pipeline, and just a normal python script that works alone.
