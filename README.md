@@ -4,8 +4,6 @@ Made in my short summer internship at the Belgian Defence, XR-Labs.
 # Info:
 There are two variations, as you can see, one with a threaded pipeline to communicate with a c# program/pipeline, and just a normal python script that works alone.
 
-You can easily change the language and model (of faster whisper https://github.com/openai/whisper ) to finetune it for your liking.
-
 I really recommend using CUDA and not just on the cpu. That way it will be a lot, but a lot faster.
 
 This was designed to run next to their program, so that's why it is heavily threaded. But if you find any improvements, please let me know :).
